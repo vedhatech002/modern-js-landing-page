@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'ropa': "'Ropa Sans', sans-serif",
         'sofia': "'Sofia Sans Condensed', sans-serif;",
+      },
+      backgroundImage: {
+        'hero-bg-img': "url('/public/img/homepage-bg.png')"
       }
     },
   },
