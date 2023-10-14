@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'ropa': "'Ropa Sans', sans-serif",
         'sofia': "'Sofia Sans Condensed', sans-serif;",
+        'lilita': "'Lilita One', sans-serif",
       },
       backgroundImage: {
         'hero-bg-img': "url('/public/img/homepage-bg.png')"

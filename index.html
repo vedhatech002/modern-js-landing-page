@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Ropa+Sans&family=Sofia+Sans+Condensed:wght@400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Ropa+Sans&family=Sofia+Sans+Condensed:wght@400;500;600&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="./public/main.css">
@@ -17,17 +17,17 @@
 
 <body class="bg-gradient-to-t h-full from-[#12181b] to-[#202737] ">
   <!--========================Navbar========================  -->
-  <header class="sm:px-12 px-8 sm:py-5 py-3 flex items-center justify-between  fixed w-full z-50">
+  <header class="2xl:px-40  sm:px-12 px-8 2xl:py-20 sm:py-5 py-3 flex items-center justify-between  fixed w-full z-50">
     <div class=" flex gap-1">
-      <img class=" sm:w-12 w-10 rounded-lg " src="./public/img/jslogo.png" alt="modern javascript">
+      <img class="2xl:w-20 sm:w-12 w-10 rounded-lg " src="./public/img/jslogo.png" alt="modern javascript">
 
     </div>
-    <nav class="text-white font-sofia gap-x-8 md:flex hidden">
-      <a class="font-extrabold text-[22px]  hover:text-green-600" href="#">Home</a>
-      <a class="font-extrabold text-[22px]  hover:text-green-600 " href="#">About Us</a>
-      <a class="font-extrabold text-[22px]  hover:text-green-600 " href="#">Learn More</a>
+    <nav class="text-white font-sofia 2xl:gap-x-20 sm:gap-x-8 md:flex hidden">
+      <a class="font-extrabold 2xl:text-4xl sm:text-[22px]  hover:text-green-600" href="#">Home</a>
+      <a class="font-extrabold 2xl:text-4xl sm:text-[22px]  hover:text-green-600 " href="#">About Us</a>
+      <a class="font-extrabold 2xl:text-4xl sm:text-[22px]   hover:text-green-600 " href="#">Learn More</a>
 
-      <a class="font-extrabold text-[18px] font-ropa border-[2px] px-2 py-0.5 rounded-lg border-green-600 text-green-600 hover:text-violet-200 hover:border-violet-200"
+      <a class="font-extrabold 2xl:text-3xl sm:text-[18px] font-ropa border-[2px] 2xl:px-3 2xl:py-1 px-2 py-0.5 rounded-lg border-green-600 text-green-600 hover:text-violet-200 hover:border-violet-200"
         href="#">Subscribe</a>
 
     </nav>
@@ -41,43 +41,48 @@
     </span>
   </header>
   <!-- hero page -->
-  <section class="bg-hero-bg-img bg-cover bg-no-repeat w-full sm:py-20 py-16 sm:h-[650px]  h-full sm:px-12 px-8 ">
-    <!-- <img class="object-cover h-[650px] w-full " src="./public/img/homepage-bg.png" alt=""> -->
-    <h1 class="font-ropa text-white font-extrabold sm:text-[3.5rem]  text-[2.5rem] sm:pt-32 pt-20 ">Learn Modern
-      JavaScript<br> By Doing
-      In Tamil
+  <section
+    class="bg-hero-bg-img bg-cover bg-no-repeat w-full sm:py-20 py-12 2xl:h-[1250px] sm:h-[650px]  h-full 2xl:px-40 sm:px-12 px-8 ">
+    <div class="2xl:pt-96 sm:pt-32 pt-20 flex flex-col 2xl:gap-y-8 ">
+      <h1 class="font-ropa text-white font-extrabold  2xl:text-9xl  sm:text-[3.5rem]  text-[2.5rem] ">Learn
+        Modern
+        JavaScript<br> By Doing
+        In Tamil
 
-    </h1>
-    <p class="text-md text-[#b2becd] font-sofia">Learn how to build real-world applications with JavaScript</p>
-    <div class="flex items-center gap-5">
-      <button
-        class="sm:px-6 sm:py-1.5 px-4 py-1 mt-6 bg-sky-400 font-semibold font-sofia text-md rounded-full flex gap-2 items-center">Introduction
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-            <path fill="black"
-              d="M16.01 11H5c-.55 0-1 .45-1 1s.45 1 1 1h11.01v1.79c0 .45.54.67.85.35l2.78-2.79c.19-.2.19-.51 0-.71l-2.78-2.79c-.31-.32-.85-.09-.85.35V11z" />
-          </svg>
-        </span>
-      </button>
-      <button
-        class="sm:px-6 sm:py-1.5 px-8 py-1 mt-6 bg-transparent border-2 border-sky-400 font-semibold font-sofia text-md rounded-full flex gap-2 items-center text-sky-400">Learn
-        more
+      </h1>
+      <p class="2xl:text-4xl   text-md text-[#b2becd] font-sofia">Learn how to build real-world applications with
+        JavaScript</p>
+      <div class="flex items-center gap-5">
+        <button
+          class="sm:px-6 2xl:py-4 sm:py-1.5 2xl:px-8  px-4 py-1 mt-6 bg-sky-400 font-semibold font-sofia 2xl:text-4xl text-md rounded-full flex gap-2 items-center">Introduction
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="black"
+                d="M16.01 11H5c-.55 0-1 .45-1 1s.45 1 1 1h11.01v1.79c0 .45.54.67.85.35l2.78-2.79c.19-.2.19-.51 0-.71l-2.78-2.79c-.31-.32-.85-.09-.85.35V11z" />
+            </svg>
+          </span>
+        </button>
+        <button
+          class="2xl:px-14 sm:px-6 2xl:py-4 sm:py-1.5 px-8 py-1 mt-6 bg-transparent border-2 border-sky-400 font-semibold font-sofia 2xl:text-4xl  text-md rounded-full flex gap-2 items-center text-sky-400">Learn
+          more
 
-        </span>
-      </button>
+          </span>
+        </button>
+      </div>
     </div>
+
 
 
   </section>
   <!--intro section -->
   <section
-    class="grid md:grid-cols-2 grid-cols-1 md:items-start justify-center bg-transparent sm:pt-28 pt-20 sm:px-12 px-8 gap-x-24 gap-y-8">
+    class="grid md:grid-cols-2 grid-cols-1 md:items-start justify-center bg-transparent sm:pt-28 pt-16 sm:px-12 px-8 gap-x-24 gap-y-8">
     <div class="h-full flex items-center justify-center ">
       <img class="w-[500px] h-full rounded-lg opacity-70 " src="./public/img/modernjs.png" alt="modernjs">
     </div>
     <div class="text-white">
-      <h1 class="sm:text-3xl text-xl font-ropa font-bold">What is Modern Javascript?</h1>
-      <p class="sm:text-lg text-sm text-[#b2becd]  font-sofia font-semibold mt-2">Modern JavaScript, also known as
+      <h1 class="sm:text-3xl text-2xl font-ropa font-bold">What is Modern Javascript?</h1>
+      <p class="sm:text-lg text-md text-[#b2becd]  font-sofia font-semibold mt-2">Modern JavaScript, also known as
         ECMAScript,
         refers to
         the latest
@@ -94,7 +99,7 @@
   <section class="sm:pt-36 pt-20 sm:px-12 px-8">
     <!-- what i should know before to learn modern js -->
     <div class="flex flex-col items-center justify-center sm:gap-24 gap-8 ">
-      <h1 class="sm:text-[3rem] text-xl text-violet-200 text-center font-ropa font-extrabold">🧐what i should know
+      <h1 class="sm:text-4xl text-xl text-violet-200 text-center font-ropa font-extrabold">🧐What i should know
         before to learn
         modern js? </h1>
       <div class="flex sm:flex-row flex-col items-center gap-5">
