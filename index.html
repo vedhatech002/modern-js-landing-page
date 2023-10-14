@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="./public/img/jslogo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Modern Js</title>
+  <title>Modern Js by cyberdude</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -16,10 +16,10 @@
 </head>
 
 <body class="bg-gradient-to-t h-full from-[#12181b] to-[#202737] ">
-  <!-- header -->
-  <header class="sm:px-12 px-8 py-5 flex items-center justify-between bg-transparent fixed w-full">
+  <!--========================Navbar========================  -->
+  <header class="sm:px-12 px-8 sm:py-5 py-3 flex items-center justify-between  fixed w-full z-50">
     <div class=" flex gap-1">
-      <img class=" w-12 rounded-lg " src="./public/img/jslogo.png" alt="modern javascript">
+      <img class=" sm:w-12 w-10 rounded-lg " src="./public/img/jslogo.png" alt="modern javascript">
 
     </div>
     <nav class="text-white font-sofia gap-x-8 md:flex hidden">
@@ -326,18 +326,18 @@
 
   </footer>
 
-  <!-- <script>
+  <script>
     const navEl = document.querySelector("header");
-
+    console.log(navEl)
     window.addEventListener('scroll', () => {
       if (window.scrollY >= 100) {
-        navEl.classList.add("bg-black");
+        navEl.classList.add("bg-[#0d0d0d]");
       }
       else if (window.scrollY <= 100) {
-        navEl.classList.remove("navbar-scrolled");
+        navEl.classList.remove("bg-[#0d0d0d]");
       }
     })
-  </script> -->
+  </script>
 
 
 
